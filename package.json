@@ -1,13 +1,13 @@
 {
-  "name": "@hk-componentPackage/matrix",
-  "version": "0.0.1",
+  "name": "@hk-componentPackage/shengMatrix",
+  "version": "0.0.3",
   "dependencies": {
     "bcore": "0.0.18",
     "jquery": "2.1.4",
     "lodash": "4.6.1"
   },
   "datav": {
-    "cn_name": "matrix",
+    "cn_name": "shengMatrix",
     "icon": "",
     "protocol": 2,
     "type": [
@@ -42,7 +42,7 @@
       }
     },
     "events": {                              
-      "click": {                       
+      "matrixClick": {                       
         "description": "点击事件",          
         "fields": {                         
           "value": {   
@@ -50,7 +50,7 @@
           }
         }
       },
-      "rollEvent": {                       
+      "matrixRollEvent": {                       
         "description": "滚动事件",          
         "fields": {                         
           "value": {   
